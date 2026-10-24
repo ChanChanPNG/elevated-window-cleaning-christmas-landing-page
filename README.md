@@ -16,3 +16,11 @@ Form ID: `0vOx5JC7BBK2NHhsucTt`. The official resizing script is included. The i
 - Confirm service wording, privacy terms, and holiday scheduling.
 - Confirm whether the client approves displaying the provided photos and owner portrait.
 - Confirm Jobber handoff and revenue reconciliation.
+
+
+## October 24 revision
+- Heading accent text uses the **same font and upright styling**, with gold color only.
+- Desktop navigation remains visible during scrolling; mobile has a fixed cranberry estimate CTA.
+- GHL iframe now uses eager loading instead of lazy loading, and the official resize script loads deferred.
+- For intermittent empty embeds, also test in an incognito browser with extensions disabled, check cookie/consent blockers and third-party iframe requests, and inspect GHL form publishing settings. A successful live submission is still required.
+- The empty fourth change item was not implemented because no details were supplied.
