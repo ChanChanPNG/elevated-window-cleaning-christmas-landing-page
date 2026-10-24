@@ -24,3 +24,7 @@ Form ID: `0vOx5JC7BBK2NHhsucTt`. The official resizing script is included. The i
 - GHL iframe now uses eager loading instead of lazy loading, and the official resize script loads deferred.
 - For intermittent empty embeds, also test in an incognito browser with extensions disabled, check cookie/consent blockers and third-party iframe requests, and inspect GHL form publishing settings. A successful live submission is still required.
 - The empty fourth change item was not implemented because no details were supplied.
+
+## October 24 revision — footer and phone links
+- Removed both publicly displayed phone numbers/phone links from the landing page (estimate section and footer). The GHL form’s required customer phone field is unchanged.
+- Added the cropped compass mark from the user-supplied Wayfinder Creative logo next to the “Designed and hosted by Wayfinder Creative” footer credit, linking to wayfindercreative.net.

@@ -48,3 +48,11 @@ h1 em,h2 em{font-family:inherit;font-style:normal;font-weight:inherit;letter-spa
   body{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
   #estimate{scroll-margin-top:78px}
 }
+
+/* Wayfinder Creative footer brand credit */
+.wayfinder-credit{display:inline-flex;align-items:center;justify-content:flex-end;gap:11px;text-decoration:none;color:#344d45;text-align:left;line-height:1.35;margin-top:12px}
+.wayfinder-credit img{width:46px;height:46px;object-fit:cover;border-radius:8px;flex:none}
+.wayfinder-credit span{font-size:12px}
+.wayfinder-credit strong{font-size:13px;color:#17302a;font-weight:700}
+.wayfinder-credit:hover strong{text-decoration:underline}
+@media(max-width:600px){.wayfinder-credit{justify-content:flex-start}}
