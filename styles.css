@@ -56,3 +56,29 @@ h1 em,h2 em{font-family:inherit;font-style:normal;font-weight:inherit;letter-spa
 .wayfinder-credit strong{font-size:13px;color:#17302a;font-weight:700}
 .wayfinder-credit:hover strong{text-decoration:underline}
 @media(max-width:600px){.wayfinder-credit{justify-content:flex-start}}
+
+
+/* Shared legal & compliance footer and legal page styles */
+footer{align-items:flex-start;flex-wrap:wrap;column-gap:clamp(26px,4vw,75px);row-gap:35px}
+.footer-left{min-width:175px}
+.footer-legal{display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-width:190px}
+.footer-legal h2{margin:0 0 6px;font:700 12px/1.4 'DM Sans',sans-serif;text-transform:uppercase;letter-spacing:.13em;color:#17302a}
+.footer-legal a{color:#4d6058;font-size:14px;line-height:1.5;text-decoration:none}
+.footer-legal a:hover,.footer-legal a:focus-visible{text-decoration:underline;text-underline-offset:3px}
+.footer-right{margin-left:auto}
+.form-privacy-note{font-size:12px;line-height:1.55;margin:14px 0 0;color:#dbe4db}
+.form-privacy-note a{color:#fff;text-underline-offset:3px}
+.legal-main{background:var(--cream);padding:clamp(54px,7vw,100px) clamp(22px,8vw,130px);min-height:62vh}
+.legal-wrap{max-width:870px;margin:0 auto}
+.legal-eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.16em;font-weight:700;color:#8d6938}
+.legal-main h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(38px,5vw,60px);line-height:1.15;margin:12px 0 16px;color:var(--forest)}
+.legal-main .legal-lead{font-size:17px;color:#556a5e;max-width:740px}
+.legal-main .updated{font-size:13px;color:#6e786f;margin:20px 0 36px}
+.legal-main article h2{font-family:'Playfair Display',Georgia,serif;font-size:27px;line-height:1.3;margin:34px 0 12px;color:var(--forest)}
+.legal-main article h3{font-size:17px;margin:20px 0 8px}
+.legal-main article p,.legal-main article li{color:#344d43;font-size:15px;line-height:1.8}
+.legal-main article ul{padding-left:24px}
+.legal-main article a{color:#7c3836;text-underline-offset:3px}
+.legal-notice{border-left:3px solid #be9c61;background:#f0ece0;padding:15px 20px;margin:28px 0;font-size:14px;color:#364d43}
+.legal-back{display:inline-block;margin-top:30px;color:#7c3836;font-weight:700}
+@media(max-width:700px){.footer-right{margin-left:0}.footer-legal{width:100%}.legal-main{padding-top:55px;padding-bottom:70px}.legal-main article h2{font-size:24px}}

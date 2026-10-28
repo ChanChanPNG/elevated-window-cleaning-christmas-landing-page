@@ -28,3 +28,15 @@ Form ID: `0vOx5JC7BBK2NHhsucTt`. The official resizing script is included. The i
 ## October 24 revision — footer and phone links
 - Removed both publicly displayed phone numbers/phone links from the landing page (estimate section and footer). The GHL form’s required customer phone field is unchanged.
 - Added the cropped compass mark from the user-supplied Wayfinder Creative logo next to the “Designed and hosted by Wayfinder Creative” footer credit, linking to wayfindercreative.net.
+
+
+## October 28, 2026 — Legal & Compliance update
+Added four dedicated legal pages: `privacy-policy/`, `terms-of-service/`, `sms-policy/`, `anti-spam/`. The footer now links to all four on the landing page and on each legal page. Added a concise privacy/SMS notice adjacent to the estimate form; this does **not** replace actual GHL checkbox disclosures. Policies are business-specific drafts requiring business verification and legal review.
+
+**Before launching any marketing:**
+- Confirm the precise registered LLC name and state, policy accuracy, and data-processing/retention practices.
+- Inspect GHL embedded form ID `0vOx5JC7BBK2NHhsucTt` for separate, unchecked and appropriately worded SMS/marketing consent where legally required; capture timestamp, disclosure version, source, and consent status. Test STOP and HELP, internal suppressions, and A2P registration. No changes to the third-party iframe's internal consent fields were made.
+- Set a valid physical postal address in outgoing commercial marketing emails, and test unsubscribe handling; no mailing address was supplied for this project.
+- The source ZIP README explicitly states that Meta Pixel is **not installed** in this bundle. If Pixel or other nonessential tracking is installed later, update policies and implement any required opt-in/cookie controls, as appropriate.
+- Confirm Jobber/Stripe/Meta actually receive or process information in the live production workflows; tool descriptions in policy are qualified accordingly.
+- Verify legal page URLs and GHL form at the real deployed domain. For Vercel static hosting, folder `index.html` pages generally resolve to clean paths, but confirm deployment and any redirects.
